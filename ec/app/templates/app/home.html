@@ -39,48 +39,142 @@
 {% endblock information%}
 {% block main-content %}
     <div class="container">
-        <h2 class="text-center">Dairy Products</h2>
+        <!-- <h2 class="text-center">Dairy Products</h2>
         <br><br>
         <div class="row container">
-             <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="ls"
+             <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="ls"
              data-wow-delay="0.6s" style="animation-duration: ls; animation-delay: 0.6; 
              animation-name: none;">
                    <div class="goodnesssec buttermilk smbg">
                      <a href="#">
                         <div class="goodnesssecont text-center">
                           <img src="{% static 'app/images/product/buffalo-ghee.png'%}" 
-                            class="img-responsive" alt="">
+                            class="img-responsive center block" alt="">
                             <p class="mlkpro">Ghee</p>
                         </div>
                      </a>
                     </div>
-                    <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="ls"
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="ls"
              data-wow-delay="0.6s" style="animation-duration: ls; animation-delay: 0.6; 
              animation-name: none;">
-                   <div class="goodnesssec buttermilk smbg">
+                   <div class="goodnesssec buttermilk curdbgpro">
                      <a href="#">
                         <div class="goodnesssecont text-center">
                           <img src="{% static 'app/images/product/curd-total.png'%}" 
-                            class="img-responsive" alt="">
+                            class="img-responsive center block" alt="">
                             <p class="mlkpro">CURD</p>
                         </div>
                      </a>
                     </div>
-                    <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="ls"
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="ls"
              data-wow-delay="0.6s" style="animation-duration: ls; animation-delay: 0.6; 
              animation-name: none;">
-                   <div class="goodnesssec buttermilk smbg">
+                   <div class="goodnesssec buttermilk buttermilk">
                      <a href="#">
                         <div class="goodnesssecont text-center">
                           <img src="{% static 'app/images/product/kulfi.png'%}" 
-                            class="img-responsive" alt="">
+                            class="img-responsive center block" alt="">
                             <p class="mlkpro">Kulfi</p>
                         </div>
                      </a>
                     </div>
-              </div>
-        </div>
-        <br/><br/>
+                  </div> -->
+                  <h2 class="text-center mb-5">Dairy Products</h2> <!-- Bootstrap margin used -->
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="1s"
+         data-wow-delay="0.6s">
+      <div class="goodnesssec buttermilk smbg p-4 text-center"> <!-- added padding -->
+        <a href="#">
+          <div class="goodnesssecont">
+            <img src="{% static 'app/images/product/buffalo-ghee.png'%}" 
+                 class="img-fluid mx-auto d-block" alt="">
+            <p class="mlkpro mt-3">Ghee</p>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="1s"
+         data-wow-delay="0.6s">
+      <div class="goodnesssec buttermilk curdbgpro p-4 text-center">
+        <a href="#">
+          <div class="goodnesssecont">
+            <img src="{% static 'app/images/product/curd-total.png'%}" 
+                 class="img-fluid mx-auto d-block" alt="">
+            <p class="mlkpro mt-3">CURD</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="1s"
+         data-wow-delay="0.6s">
+      <div class="goodnesssec buttermilk p-4 text-center">
+        <a href="#">
+          <div class="goodnesssecont">
+            <img src="{% static 'app/images/product/kulfi.png'%}" 
+                 class="img-fluid mx-auto d-block" alt="">
+            <p class="mlkpro mt-3">Kulfi</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+                </div>
+                <br><br>
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="1s"
+         data-wow-delay="0.6s">
+      <div class="goodnesssec buttermilk smbg p-4 text-center"> <!-- added padding -->
+        <a href="#">
+          <div class="goodnesssecont">
+            <img src="{% static 'app/images/product/milk-shake-chocolate.png'%}" 
+                 class="img-fluid mx-auto d-block" alt="">
+            <p class="mlkpro mt-3">MilkShake</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="1s"
+         data-wow-delay="0.6s">
+      <div class="goodnesssec buttermilk curdbgpro p-4 text-center">
+        <a href="#">
+          <div class="goodnesssecont">
+            <img src="{% static 'app/images/product/cow-milk.png'%}" 
+                 class="img-fluid mx-auto d-block" alt="">
+            <p class="mlkpro mt-3">Milk</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 mb-4 wow fadeInUp" data-wow-duration="1s"
+         data-wow-delay="0.6s">
+      <div class="goodnesssec buttermilk p-4 text-center">
+        <a href="#">
+          <div class="goodnesssecont">
+            <img src="{% static 'app/images/product/icbars.png'%}" 
+                 class="img-fluid mx-auto d-block" alt="">
+            <p class="mlkpro mt-3">Icebars</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+<br/><br/>
+</div>
 
 {% endblock main-content %}
